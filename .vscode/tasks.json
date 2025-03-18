@@ -1,0 +1,24 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+      {
+        "label": "Terraform: Init",
+        "type": "shell",
+        "command": "terraform init",
+        "problemMatcher": []
+      },
+      {
+        "label": "Terraform: Plan",
+        "type": "shell",
+        "command": "terraform plan",
+        "problemMatcher": []
+      },
+      {
+        "label": "Terraform: Apply",
+        "type": "shell",
+        "command": "terraform apply -auto-approve",
+        "problemMatcher": []
+      }
+    ]
+  }
+  
